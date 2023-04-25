@@ -124,10 +124,21 @@ const char = {
 
 // console.log(char.talk);
 
-char.crazyTalk();
+// char.crazyTalk();
 
 function printWords(text) {
-    return text.split(' ');
+    let words = text.split(' ');
+    const t = setInterval(
+        function() {
+            console.log(words.shift());
+            if (words.length === 0) {
+                clearInterval(t);
+            }
+        },
+        1000
+    );
+
 }
+
 
 console.log(printWords("Thanks for all the fish !"))
