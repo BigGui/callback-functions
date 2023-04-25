@@ -60,7 +60,7 @@ const players = [
     { name: 'Samir', score: 125 },
     { name: 'Tom', score: 520 },
     { name: 'Loanne', score: 214 },
-    { name: 'Michel', score: 342 },
+    { name: 'Michel', score: 500 },
     { name: 'Mireille', score: 230 }
 ];
 
