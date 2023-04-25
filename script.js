@@ -141,4 +141,5 @@ function printWords(text) {
 }
 
 
-console.log(printWords("Thanks for all the fish !"))
+console.log(printWords("Thanks for all the fish !"));
+console.log(printWords("Salut les gens !"));
