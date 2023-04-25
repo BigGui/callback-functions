@@ -125,3 +125,9 @@ const char = {
 // console.log(char.talk);
 
 char.crazyTalk();
+
+function printWords(text) {
+    return text.split(' ');
+}
+
+console.log(printWords("Thanks for all the fish !"))
